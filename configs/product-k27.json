@@ -101,7 +101,13 @@
  },
  "kernel_args": [
   "vm_compression_limit=1572864",
-  "rootauth=0"
+  "rootauth=0",
+  "-v",
+  "vc-text=1",
+  "serial=3",
+  "msgbuf=1048576",
+  "stderr-log=1",
+  "panic-spin=1"
  ],
  "kexts": [
   "bash k27/build-platform-cpu.sh",
